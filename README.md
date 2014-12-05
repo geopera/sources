@@ -1,4 +1,4 @@
-Sources are configured in this repository.
+Geopra country sources are configured in this repository.
 =======
 
 You can add any source for any country. Simply use the ISO 3166-1 alpha-2 convention when adding a new entry. Then the file containing the sources should contain the 2 letters + sources.xml.
