@@ -7,7 +7,7 @@ For example, here we have `PT-sources.xml` placed under the directory `PT` (Port
 
 ```XML
 <source-list> 
-	<source id="net-empregos"> <!-- an ID specifying the source, typically the name of the web site"
+	<source id="net-empregos"> <!-- an ID specifying the source, typically the name of the web site" -->
 		<link value="http://feeds.feedburner.com/net-empregos?format=xml"/>
 		<crawler impl="com.geopera.crawler.impl.RssReaderWeekDay" />
 		<img src="http://www.net-empregos.com/images/logo_net3.png" />
