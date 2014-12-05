@@ -1,0 +1,37 @@
+<source-list>
+	<source id="net-empregos">
+		<link>
+			<![CDATA[http://feeds.feedburner.com/net-empregos?format=xml]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.net-empregos.com/images/logo_net3.png" />
+	</source>
+	<source id="expresso">
+		<link>
+			<![CDATA[http://www.expressoemprego.pt/rss/ultimas-ofertas]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.accessmba.com/uploads/Expressoemprego_logo.jpg" />
+	</source>
+	<source id="empregosonline">
+		<link>
+			<![CDATA[http://www.empregosonline.pt/Rss/RssHandler.ashx?c=Ofertas]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.cofinamedia.xl.pt/publicidade/eo/online/i/logo.gif" />
+	</source>
+<!-- 	Does not work very well -->
+<!-- 	<source id="ofertas-emprego"> -->
+<!-- 		<url link="http://www.ofertas-emprego.net/rss.php" /> -->
+<!-- 		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" /> -->
+<!-- 	</source> -->
+	<source id="sapo-emprego">
+		<link>
+			<![CDATA[http://emprego.sapo.pt/emprego/ofertas.htm/ofertageral/rss/]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderDash" />
+		<img src="http://1.ftbs.sl.pt/emprego/resources/pt/images/outras/logo-sapo.png" />
+	</source>
+<!-- 	#http://www.empregoxl.com//rss/all/ -->
+<!-- 	#http://www.ofertas-emprego.net/rss.php -->
+</source-list>
