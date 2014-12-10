@@ -29,7 +29,7 @@
 		<link>
 			<![CDATA[http://emprego.sapo.pt/emprego/ofertas.htm/ofertageral/rss/]]>
 		</link>
-		<crawler impl="com.geopera.crawler.impl.RSSJobCrawler" options="format=dd-MM-yyyy" />
+		<crawler impl="com.geopera.crawler.impl.RSSJobCrawler" args="dd-MM-yyyy" />
 		<img src="http://1.ftbs.sl.pt/emprego/resources/pt/images/outras/logo-sapo.png" />
 	</source>
 <!-- 	#http://www.empregoxl.com//rss/all/ -->
