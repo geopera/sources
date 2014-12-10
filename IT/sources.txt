@@ -1,0 +1,4 @@
+bachecalavoro	http://www.bachecalavoro.com/rss/feed.html	ddt.web.crawler.service.RssReaderWeekDay	http://www.cvengine.com/img/partner_bachecalavoro.gif
+#http://www.romaforever.com/rss/OfferteLavoro.php
+lavoricreativi	http://feeds.feedburner.com/Lavoricreativicom	ddt.web.crawler.service.RssReaderWeekDay	http://www.internetdays.it/Allegati/30.jpg
+#http://rss.jobsearch.monster.com/rssquery.ashx?rad_units=km&cy=IT&pp=25&sort=rv.di.dt&geo=bari%252c%2520Puglia%2c2%2c1311333%2c1968500%2c1267&baseurl=offerte-lavoro.monster.it

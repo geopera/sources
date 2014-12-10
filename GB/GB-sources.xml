@@ -1,0 +1,67 @@
+<source-list>
+	<!-- Jobs of UK -->
+	<source id="jobs-ac-uk-london">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/london/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="jobs-ac-uk-midlands">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/midlands-of-england/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="jobs-ac-uk-northern">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/northern-england/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="jobs-ac-uk-ireland">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/republic-of-ireland/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="jobs-ac-uk-scotland">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/scotland/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="jobs-ac-uk-south-east-england">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/south-east-england/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="jobs-ac-uk-south-west-england">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/south-west-england/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="jobs-ac-uk-wales-england">
+		<link>
+			<![CDATA[http://www.jobs.ac.uk/jobs/wales/?format=rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.jobs.ac.uk/images/global/jobs_ac_uk-logo.gif" />
+	</source>
+	<source id="monster">
+		<link>
+			<![CDATA[http://rss.jobsearch.monster.com/rssquery.ashx?rad_units=km&cy=UK]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img
+			src="http://www.npaworldwide.com/wp-content/uploads/2012/10/Monster-logo.jpg" />
+	</source>
+</source-list>

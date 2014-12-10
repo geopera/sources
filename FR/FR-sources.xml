@@ -1,0 +1,40 @@
+<source-list>
+	<!-- Source de France -->
+
+	<source id="michaelpage-assurance">
+		<link>
+			<![CDATA[http://www.michaelpage.fr/assurance.rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.michaelpage.co.uk/imagebank/mp_hp_logo_20060705.gif" />
+	</source>
+	<source id="michaelpage-banque-city">
+		<link>
+			<![CDATA[http://www.michaelpage.fr/banque-city.rss]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img src="http://www.michaelpage.co.uk/imagebank/mp_hp_logo_20060705.gif" />
+	</source>
+	<source id="monster">
+		<link>
+			<![CDATA[http://rss.jobsearch.monster.com/rssquery.ashx?rad_units=km&cy=FR]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img
+			src="http://www.npaworldwide.com/wp-content/uploads/2012/10/Monster-logo.jpg" />
+	</source>
+	<source id="pole-emploi">
+		<link>
+			<![CDATA[http://www.pole-emploi.fr/informations/rss-@/rss/]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img
+			src="http://www.pole-emploi.fr/accueil/__cache__/image/site/interpe/logo-pole-emploi.gif[139x90].png" />
+	</source>
+	<!-- pole-emploi -->
+	<!-- adecco -->
+	<!-- manpower -->
+	<!-- le bons coins -->
+	<!-- #Il y en a une petee ici: http://www.michaelpage.fr/rss.html -->
+	<!-- #Ici aussi http://www.apec.fr/fluxRss/XML/OffresCadre_F101828.xml -->
+</source-list>

@@ -1,0 +1,7 @@
+#jobborse	http://www.xn--jobbrse-d1a.de/
+#monster	http://www.monster.de/
+#jobscout24	http://www.jobscout24.de/
+#stellenwerk	http://www.stellenwerk-koeln.de/start.html
+#kimeta	http://www.kimeta.de/stellenangebote-k%C3%B6ln
+#koeln	http://www.koeln.de/service/themen/jobs
+#kalayado	http://m.kalaydo.de/jobboerse/1/2/3/o/koeln/?NO_COUNTRYWIDE=1&areaId=5315000&cityId=5315000&

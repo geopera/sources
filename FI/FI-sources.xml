@@ -1,0 +1,10 @@
+<source-list>
+	<source id="monster">
+		<link>
+			<![CDATA[http://rss.jobsearch.monster.com/rssquery.ashx?rad_units=km&cy=FI]]>
+		</link>
+		<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+		<img
+			src="http://www.npaworldwide.com/wp-content/uploads/2012/10/Monster-logo.jpg" />
+	</source>
+</source-list>
