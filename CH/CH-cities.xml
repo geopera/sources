@@ -1,0 +1,45 @@
+<source-list>
+    <source id="jobup-watchmaking">
+	<link>
+	    <![CDATA[http://www.jobup.ch/rss/horlogerie.xml]]>
+	</link>
+	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<img
+	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
+    </source>
+    <source id="jobup-banking">
+	<link>
+	    <![CDATA[http://www.jobup.ch/rss/banque.xml]]>
+	</link>
+	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<img
+	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
+    </source>
+    <source id="jobup-it">
+	<link>
+	    <![CDATA[http://www.jobup.ch/rss/informatique.xml]]>
+	</link>
+	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<img
+	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
+    </source>
+    <source id="jobup-medical">
+	<link>
+	    <![CDATA[http://www.jobup.ch/rss/medical.xml]]>
+	</link>
+	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<img
+	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
+    </source>
+    <source id="monster">
+	<link>
+	    <![CDATA[http://rss.jobsearch.monster.com/rssquery.ashx?rad_units=km&cy=CH]]>
+	</link>
+	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<img
+	    src="http://www.npaworldwide.com/wp-content/uploads/2012/10/Monster-logo.jpg" />
+    </source>
+
+    <!-- #jobup-industrie http:/www.jobup.ch/rss/industrie.xml ddt.job.crawler.impl.RssReaderWeekDay 
+	http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png -->
+</source-list>
