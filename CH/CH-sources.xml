@@ -19,7 +19,7 @@
 	<link>
 	    <![CDATA[http://www.jobup.ch/rss/informatique.xml]]>
 	</link>
-	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<crawler impl="com.geopera.crawler.impl.RSSJobCrawler" />
 	<img
 	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
     </source>
