@@ -3,7 +3,7 @@
 	<link>
 	    <![CDATA[http://www.jobup.ch/rss/horlogerie.xml]]>
 	</link>
-	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<crawler impl="com.geopera.crawler.impl.RSSJobCrawler" />
 	<img
 	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
     </source>
@@ -11,7 +11,7 @@
 	<link>
 	    <![CDATA[http://www.jobup.ch/rss/banque.xml]]>
 	</link>
-	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<crawler impl="com.geopera.crawler.impl.RSSJobCrawler" />
 	<img
 	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
     </source>
@@ -27,7 +27,7 @@
 	<link>
 	    <![CDATA[http://www.jobup.ch/rss/medical.xml]]>
 	</link>
-	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<crawler impl="com.geopera.crawler.impl.RSSJobCrawler" />
 	<img
 	    src="http://www.jobup-host.ch/website/JobUP/images2/design3/jobup-logo-w260.png" />
     </source>
@@ -35,7 +35,7 @@
 	<link>
 	    <![CDATA[http://rss.jobsearch.monster.com/rssquery.ashx?rad_units=km&cy=CH]]>
 	</link>
-	<crawler impl="ddt.job.crawler.impl.RssReaderWeekDay" />
+	<crawler impl="com.geopera.crawler.impl.RSSJobCrawler" />
 	<img
 	    src="http://www.npaworldwide.com/wp-content/uploads/2012/10/Monster-logo.jpg" />
     </source>
